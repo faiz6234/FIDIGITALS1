@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIdigital – Fitness Marketing Agency</title>
+  <style>
+    :root {
+      --primary: #3B82F6;
+      --charcoal: #3C3C43;
+      --dark-charcoal: #1A1A1E;
+      --accent-red: #EF4444;
+      --bg: #ffffff;
+      --text: #1A1A1E;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header, footer {
+      background: var(--dark-charcoal);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    .btn {
+      background: var(--accent-red);
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #dc2626;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .problem, .solution, .proof, .how {
+      margin-bottom: 3rem;
+    }
+    .stat {
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--accent-red);
+    }
+    .footer-logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #f5f5f5;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="footer-logo">FIdigital</div>
+</header>
+
+<section class="hero">
+  <h1>Your Dream Clients Are Scrolling Past You</h1>
+  <p>We build conversion machines that turn your fitness expertise into consistent revenue.</p>
+  <button class="btn" onclick="document.getElementById('cta').scrollIntoView({ behavior: 'smooth' })">
+    Stop Losing Money Online
+  </button>
+</section>
+
+<div class="section problem">
+  <h2>Sound Familiar?</h2>
+  <p><strong>Great IG, Zero Funnel:</strong> You're posting daily, getting likes, but no one knows how to buy.</p>
+  <p><strong>Manual Booking Nightmare:</strong> You spend hours replying to DMs to schedule clients.</p>
+  <p><strong>Feast or Famine Revenue:</strong> Some months you're booked, others you're struggling. No system.</p>
+</div>
+
+<div class="section solution">
+  <h2>Here's How We Fix It</h2>
+  <ul>
+    <li><strong>Sales-Focused Website:</strong> Built to convert, not just look good.</li>
+    <li><strong>Booking System:</strong> Clients schedule and pay—no back-and-forth.</li>
+    <li><strong>Sales Pages:</strong> Branded landing pages that sell while you sleep.</li>
+    <li><strong>Email Funnel:</strong> 4-week campaign that nurtures cold leads into signups.</li>
+    <li><strong>Lead Magnet & VSL:</strong> Capture and pitch automatically.</li>
+  </ul>
+</div>
+
+<div class="section proof">
+  <h2>Results That Speak</h2>
+  <p><span class="stat">2x</span> — Coach Sarah doubled signups in 3 weeks</p>
+  <p><span class="stat">20+</span> — Funnels built for trainers under 100k followers</p>
+  <p><span class="stat">85%</span> — Average lead-to-client conversion jump</p>
+</div>
+
+<div class="section how">
+  <h2>How It Works</h2>
+  <ol>
+    <li><strong>You Tell Us What You Offer:</strong> We get clear on your goals.</li>
+    <li><strong>We Build the Whole Funnel:</strong> Website, sales pages, email automation.</li>
+    <li><strong>You Only Pay If You Love It:</strong> No commitment until it's perfect.</li>
+  </ol>
+</div>
+
+<div class="section" id="cta" style="text-align:center;">
+  <h2>Ready to Start Converting?</h2>
+  <p>Your expertise deserves a system that works while you sleep.</p>
+  <a href="mailto:demo@fidigital.com?subject=Free Demo Funnel Request" class="btn">Get Your Free Demo Funnel</a>
+</div>
+
+<footer>
+  <p>© 2024 FIdigital</p>
+</footer>
+
+</body>
+</html>
